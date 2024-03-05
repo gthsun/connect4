@@ -12,7 +12,6 @@ body {
 h1 {
     color: gold;
     font-size: 50px;
-    padding: 30px;
     text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred, 0 0 3px darkred;
 }
 
@@ -36,13 +35,6 @@ h1 {
 
     background-color: white;
     border-radius: 50%;
-    border: 5px solid purple;
-}
-
-.red-piece {
-    background-color: red;
-}
-
-.yellow-piece {
-    background-color: yellow;
+    border: 5px solid rgb(50,0,255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
