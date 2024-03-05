@@ -41,6 +41,9 @@ function setGame() {
 }
 
 function highlightSpot() {
+    if (gameOver) {
+        return;
+    }
 
     let coords = this.id.split("-"); //Splits tile ID into an array of the row and column
     let c = parseInt(coords[1]);
