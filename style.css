@@ -4,15 +4,35 @@
     font-style: normal;
 }  
 
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+  
 body {
     font-family: "Carme", sans-serif;
     text-align: center;
 }
 
-h1 {
+#connect {
     color: gold;
     font-size: 50px;
     text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred, 0 0 3px darkred;
+}
+
+#four {
+    color: red;
+    font-size: 75px;
+    text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold, 0 -1px gold, 0 0 5px gold;
+}
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    display:inline;
+    text-align: center;
+    padding: 5px;
+
 }
 
 #board {
@@ -35,6 +55,6 @@ h1 {
 
     background-color: white;
     border-radius: 50%;
-    border: 5px solid rgb(50,0,255);
+    border: 5px solid rgb(50 ,0,255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
